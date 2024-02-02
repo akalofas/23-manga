@@ -1,0 +1,52 @@
+.latest-updates {
+    margin: 20px 0;
+  }
+  
+  .latest-updates h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .comics-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 0;
+  }
+  
+  .comic-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .comic-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .comic-info {
+    padding: 10px;
+  }
+  
+  .comic-info h3 {
+    margin: 0 0 10px;
+    font-size: 16px;
+    color: #007bff;
+  }
+  
+  .comic-info p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .comic-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  

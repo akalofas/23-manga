@@ -1,0 +1,13 @@
+.navbar-dark .nav-link {
+  color: #f8f9fa; /* Light text for dark background */
+}
+
+.navbar-light .nav-link {
+  color: #343a40; /* Dark text for light background */
+}
+
+/* Add more custom styles as needed */
+
+.navbar-profile-dropdown {
+  overflow: auto !important;
+}
